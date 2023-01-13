@@ -1,0 +1,321 @@
+/****************************************************/
+/* Styles generals per tot el body de la pàgina web */
+/****************************************************/
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    font-size: 19px;
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    /* Majuscules, minuscules ..  */
+    text-transform: none;
+    color: #4A90E2;
+}
+
+
+/************************************/
+/* Styles pel contenidor principal  */
+/************************************/
+.container {
+    border: 0px solid red;
+    /* Maxima amplada 1100 pixels  */
+    max-width: 1100px;
+    /* Fiquem marge superior  */
+    margin: 50px auto;
+}
+
+
+/****************************/
+/* titol capsalera  */
+/****************************/
+.titol {
+    width: 100%;
+    color: #297082;
+}
+
+.titol h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.titol span {
+    display: inline-block;
+    height: 50%;
+    width: 180px;
+    border-bottom: 2px solid #297082;
+}
+
+
+
+/****************************/
+/* Styles per la capsalera  */
+/****************************/
+.hero {
+    border: 0px solid green;
+    margin: 0px;
+    padding-bottom: 40px;
+    height: auto;
+}
+
+/* Styles del nom  */
+h1.name {
+    border: 0px solid red;
+    font-size: 70px;
+    font-weight: 300;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+/* capçalera perfil profesional */
+.lead {
+    border: 0px solid red;
+    font-size: 44px;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+/* capçalera email */
+.email {
+    border: 0px solid red;
+    font-size: 24px;
+    font-weight: 300;
+    color: #81899C;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*********************************/
+/* CV competencies i competències */
+/*********************************/
+.sectionsCV {
+    /* PEr ficar el contingut competencies + Competencies */
+    border: 0px solid blue;
+    /* inline-block: permet establir una amplada i una alçada a l'element. */
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    height: 700px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.list-trajectoria {
+    border: 0px solid purple;
+    margin: 20px 5px;
+    vertical-align: top;
+}
+
+.list-trajectoria .exp {
+    border: 0px solid green;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+    color: #4A90E2;
+    font-weight: 600;
+    width: 18%;
+    padding-top: 20px;
+}
+
+.list-trajectoria div {
+    border: 0px solid green;
+    display: inline-block;
+    vertical-align: top;
+    width: 78%;
+}
+
+.list-trajectoria h3 {
+    border: 0px solid purple;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5B6A9A;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.list-trajectoria span {
+    font-size: 16px;
+    color: #81899C;
+    line-height: 22px;
+
+}
+
+
+.list-competencies {
+    border: 0px solid purple;
+    margin: 20px 5px;
+    vertical-align: top;
+}
+
+.list-competencies div {
+    border: 0px solid green;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.list-competencies h3 {
+    border: 0px solid purple;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5B6A9A;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.list-competencies span {
+    font-size: 16px;
+    color: #81899C;
+    line-height: 22px;
+}
+
+
+/* INTERESSOS  */
+
+.contenidor-interessos {
+    border: 0px solid purple;
+    /* height: auto;   */
+    max-width: 1100px;
+    /* display: block; */
+}
+
+.interes {
+    border: 0px solid green;
+    display: inline-block;
+    width: 48%;
+    height: 130px;
+    background-color: #EEF0F7;
+    margin: 7px 5px;
+    vertical-align: top;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.interes-active,
+.interes:hover {
+    background-color: #fff;
+    box-shadow: 0px 5px 50px -8px #ddd;
+    cursor: pointer;
+}
+
+/* iCONES DELS INTERESSOS */
+.interes-banner {
+    border: 0px solid blue;
+    display: inline-block;
+    max-width: 160px;  
+}
+
+.interes-banner img {
+    width: 100px;
+    height: 100px;
+}
+
+.interes-descripcio {
+    border: 0px solid yellow;
+    display: inline-block;
+    max-width: 65%;
+    text-align: left;
+    /* margin-top: 15px; */
+    margin-left: 15px;
+}
+
+.interes-descripcio h3 {
+    border: 0px solid pink;
+    font-size: 20px;
+    font-weight: 800;
+    color: #5B6A9A;
+
+}
+
+.interes-descripcio span {
+    border: 0px solid black;
+    color: #81899C;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+/* Media queries*/
+
+/* tablet :horizontal */
+@media(max-width: 992px) {
+    .sectionsCV {
+        width: 47%;
+        height: 780px;
+    }
+
+    .container {
+        padding: 15px;
+        margin: 0px auto;
+    }
+
+    .contenidor-interessos {
+        margin-top: 10px;
+        max-width: 1000px;
+    }
+
+}
+
+/* tablet :vertical */
+@media(max-width: 768px) {
+    .sectionsCV {
+        height: 850px;
+    }
+
+    /*     .contenidor-interessos {
+        margin-top: 10px;
+        max-width: 1000px;
+	}  */
+
+
+}
+
+/* mobil :horitzontal/vertical */
+@media(max-width: 768px) {
+    .sectionsCV {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .contenidor-interessos {
+        border: 1px solid purple;
+    }
+
+    .interes {
+        border: 1px solid green;
+        display: block;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* @media(max-width: 425px) {
+    .lead {
+		margin-top: 15px;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.container {
+		margin: 0px;
+		padding: 0 15px;
+	}
+
+	h1.name {
+		font-size: 40px;
+	}
+
+
+} */
