@@ -192,7 +192,7 @@ h1.name {
     border: 0px solid green;
     display: inline-block;
     width: 48%;
-    height: 130px;
+    height: 150px;
     background-color: #EEF0F7;
     margin: 7px 5px;
     vertical-align: top;
@@ -280,23 +280,25 @@ h1.name {
 }
 
 /* mobil :horitzontal/vertical */
-@media(max-width: 768px) {
+@media(max-width: 576px) {
     .sectionsCV {
         display: block;
         width: 100%;
         height: auto;
     }
 
-    .contenidor-interessos {
-        border: 1px solid purple;
-    }
-
     .interes {
-        border: 1px solid green;
-        display: block;
-        width: 70%;
+        border: 0px solid green;
+        display: inline-block;
+        width: 100%;
         margin-bottom: 30px;
     }
+
+/*     .interes-banner {
+        border: 1px solid blue;
+        display: inline-block;
+        max-width: 160px;  
+    } */
 
 }
 
