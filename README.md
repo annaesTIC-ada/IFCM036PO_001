@@ -16,3 +16,5 @@ Final 09/02/2023
 - Classroom per les píldores
 - Meet per l’aula virtual
 - Google Drive pel treball personal.
+
+*"La nostra manera d'ensenyar és diferent e Innovadora, feminitzant els aprenentatges, i trencant la barrera de la por a la programació, per d’aquesta manera millorar la confiança tecnològica en una mateixa."*
