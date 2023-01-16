@@ -3,9 +3,10 @@
 **Horari**
 De dimarts a divendres. De 10 a 13h. 40h.
 
-**Edició Gener** 
-Inici 18/01/2023 
-Final 09/02/2023 
+**Edició Gener**  
+Inici 18/01/2023  
+Final 09/02/2023  
+
 
 **Modalitat Híbrida**
 - Presencial, Coworking Xammar. Baixada de les Espenyes 6, 1a Planta, Mataró.
